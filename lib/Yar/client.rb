@@ -18,11 +18,17 @@ module Yar
       CopyrightResource.new(self)
     end
 
+    def stations
+      StationsResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.request :authorization, nil, token
         conn.request :json
         conn.request :url_encoded
+
+        # conn.params[:format] = @format
 
         conn.response :json, content_type: "application/json"
         conn.response :xml, content_type: "application/xml" if @format == "xml"

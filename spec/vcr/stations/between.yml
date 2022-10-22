@@ -1,0 +1,130 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rasp.yandex.net/v3.0/search/?from=s9848585&to=s9848577
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Allow:
+      - GET
+      Content-Length:
+      - '942'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 22 Oct 2022 15:32:19 GMT
+      Vary:
+      - Accept, Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: UTF-8
+      string: '{"search":{"from":{"type":"station","title":"м. Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"date":null},"segments":[{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_0_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_0_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"01:00:00","arrival":"01:08:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_1_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_1_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"01:30:00","arrival":"01:38:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_2_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_2_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"02:00:00","arrival":"02:08:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_3_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_3_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"02:30:00","arrival":"02:38:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_4_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_4_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"03:00:00","arrival":"03:08:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_5_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_5_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"03:30:00","arrival":"03:38:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_6_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_6_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"04:00:00","arrival":"04:08:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_7_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_7_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"04:30:00","arrival":"04:38:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_8_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_8_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"05:00:00","arrival":"05:08:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_9_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_9_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"05:30:00","arrival":"05:38:00","start_date":"2022-10-22"},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null},"address":null,"url":null,"email":null,"contacts":null,"phone":"+7
+        (495) 953-00-61","logo":null,"logo_svg":null},"uid":"N1_10_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"},"thread_method_link":"api.rasp.yandex.net/v3/thread/?date=2022-10-22&uid=N1_10_9848585_4"},"stops":"","from":{"type":"station","title":"м.
+        Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
+        площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"06:00:00","arrival":"06:08:00","start_date":"2022-10-22"}],"interval_segments":[],"pagination":{"total":11,"limit":100,"offset":0}}'
+  recorded_at: Sat, 22 Oct 2022 15:32:19 GMT
+recorded_with: VCR 6.1.0

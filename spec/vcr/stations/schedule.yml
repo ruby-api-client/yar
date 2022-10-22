@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rasp.yandex.net/v3.0/schedule/?station=s9848585
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Allow:
+      - GET
+      Content-Length:
+      - '739'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 22 Oct 2022 15:27:48 GMT
+      Vary:
+      - Accept, Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: UTF-8
+      string: '{"date":null,"station":{"type":"station","title":"м. Китай-Город","short_title":null,"popular_title":null,"code":"s9848585","station_type":"bus_stop","station_type_name":"автобусная
+        остановка","transport_type":"bus"},"event":"departure","pagination":{"total":22,"limit":100,"offset":0},"schedule":[{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_0_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"01:00","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_0_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"01:00","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_1_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"01:30","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_1_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"01:30","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_2_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"02:00","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_2_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"02:00","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_3_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"02:30","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_3_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"02:30","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_4_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"03:00","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_4_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"03:00","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_5_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"03:30","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_5_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"03:30","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_6_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"04:00","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_6_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"04:00","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_7_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"04:30","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_7_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"04:30","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_8_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"05:00","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_8_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"05:00","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_9_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"05:30","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_9_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"05:30","arrival":null},{"thread":{"number":"Н1","title":"м.
+        Китай-Город — Аэропорт Шереметьево  (автобусы)","short_title":"м. Китай-Город
+        — Аэропорт Шереметьево  (автобусы)","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_10_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"06:00","arrival":null},{"thread":{"number":"Н11","title":"м.
+        Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
+        \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_10_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"06:00","arrival":null}],"interval_schedule":[]}'
+  recorded_at: Sat, 22 Oct 2022 15:27:48 GMT
+recorded_with: VCR 6.1.0
