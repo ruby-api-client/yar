@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rasp.yandex.net/v3.0/copyright/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Allow:
+      - GET
+      Content-Length:
+      - '338'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 22 Oct 2022 14:37:54 GMT
+      Vary:
+      - Accept, Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: UTF-8
+      string: '{"copyright":{"text":"Данные предоставлены сервисом Яндекс.Расписания","url":"http://rasp.yandex.ru/","logo_vy":"<iframe
+        frameborder=\"0\" style=\"overflow: hidden; border: 0; width: 240px; height:
+        130px;\" src=\"//yandex.st/rasp/media/apicc/copyright_vert_yellow.html\"></iframe>","logo_vm":"<iframe
+        frameborder=\"0\" style=\"overflow: hidden; border: 0; width: 240px; height:
+        130px;\" src=\"//yandex.st/rasp/media/apicc/copyright_vert_mono.html\"></iframe>","logo_vd":"<iframe
+        frameborder=\"0\" style=\"overflow: hidden; border: 0; width: 240px; height:
+        130px;\" src=\"//yandex.st/rasp/media/apicc/copyright_vert_dark.html\"></iframe>","logo_hy":"<iframe
+        frameborder=\"0\" style=\"overflow: hidden; border: 0; width: 740px; height:
+        51px;\" src=\"//yandex.st/rasp/media/apicc/copyright_horiz_yellow.html\"></iframe>","logo_hm":"<iframe
+        frameborder=\"0\" style=\"overflow: hidden; border: 0; width: 740px; height:
+        51px;\" src=\"//yandex.st/rasp/media/apicc/copyright_horiz_mono.html\"></iframe>","logo_hd":"<iframe
+        frameborder=\"0\" style=\"overflow: hidden; border: 0; width: 740px; height:
+        51px;\" src=\"//yandex.st/rasp/media/apicc/copyright_horiz_dark.html\"></iframe>"}}'
+  recorded_at: Sat, 22 Oct 2022 14:37:54 GMT
+recorded_with: VCR 6.1.0
