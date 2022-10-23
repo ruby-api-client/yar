@@ -1,5 +1,6 @@
 --tty
 --color
+--order rand
 --format documentation # progress
 --backtrace
 --require spec_helper

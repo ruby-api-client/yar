@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 23 Oct 2022 08:19:22 GMT
+      - Sun, 23 Oct 2022 08:29:13 GMT
       Vary:
       - Accept
       X-Content-Type-Options:
@@ -35,5 +35,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"type":"settlement","title":"Москва","short_title":"Москва","popular_title":"Москва","code":"c213","lat":55.753676,"lng":37.619899,"distance":3.016378011063095}'
-  recorded_at: Sun, 23 Oct 2022 08:19:22 GMT
+  recorded_at: Sun, 23 Oct 2022 08:29:13 GMT
 recorded_with: VCR 6.1.0

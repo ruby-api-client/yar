@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    yar (1.0.0)
-      addressable (~> 2.3, >= 2.3.7)
+    yar (1.0.1)
       faraday (~> 1.7)
 
 GEM
@@ -29,9 +28,6 @@ GEM
     faraday-em_http (1.0.0)
     faraday-em_synchrony (1.0.0)
     faraday-excon (1.1.0)
-    faraday-gzip (0.1.0)
-      faraday (>= 1.0)
-      zlib (~> 2.1)
     faraday-httpclient (1.0.1)
     faraday-multipart (1.0.4)
       multipart-post (~> 2)
@@ -71,14 +67,12 @@ GEM
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    zlib (2.1.1)
 
 PLATFORMS
   x86_64-darwin-17
 
 DEPENDENCIES
   bundler
-  faraday-gzip (~> 0.1.0)
   rake (~> 12.3.3)
   rspec (~> 3.0)
   simplecov (~> 0.9)

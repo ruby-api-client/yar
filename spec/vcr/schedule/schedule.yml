@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 23 Oct 2022 08:19:22 GMT
+      - Sun, 23 Oct 2022 08:29:14 GMT
       Vary:
       - Accept, Accept-Encoding
       X-Content-Type-Options:
@@ -91,5 +91,5 @@ http_interactions:
         \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N1_10_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"06:00","arrival":null},{"thread":{"number":"Н11","title":"м.
         Китай-Город — Аэропорт Внуково","short_title":"м. Китай-Город — Аэропорт Внуково","express_type":null,"transport_type":"bus","carrier":{"code":55874,"title":"ГУП
         \"Мосгортранс\"","codes":{"sirena":null,"iata":null,"icao":null}},"uid":"N11_10_9848585_4","vehicle":null,"transport_subtype":{"title":"Автобус","code":"bus","color":"#ff0000"}},"is_fuzzy":false,"platform":"","terminal":null,"days":"ежедневно","except_days":null,"stops":"","departure":"06:00","arrival":null}],"interval_schedule":[]}'
-  recorded_at: Sun, 23 Oct 2022 08:19:22 GMT
+  recorded_at: Sun, 23 Oct 2022 08:29:14 GMT
 recorded_with: VCR 6.1.0

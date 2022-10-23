@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 23 Oct 2022 08:19:21 GMT
+      - Sun, 23 Oct 2022 08:29:12 GMT
       Vary:
       - Accept, Accept-Encoding
       X-Content-Type-Options:
@@ -40,5 +40,5 @@ http_interactions:
         Airlines","codes":{"sirena":null,"iata":"TK","icao":"THY"},"address":"Bakırköy/
         İstanbul","url":"http://www.turkishairlines.com/","email":"","contacts":"","phone":"444
         08 49","logo":"https://yastat.net/s3/rasp/media/data/company/logo/thy_kopya.jpg","offices":[]}]}'
-  recorded_at: Sun, 23 Oct 2022 08:19:21 GMT
+  recorded_at: Sun, 23 Oct 2022 08:29:12 GMT
 recorded_with: VCR 6.1.0

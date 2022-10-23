@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 23 Oct 2022 08:19:22 GMT
+      - Sun, 23 Oct 2022 08:29:14 GMT
       Vary:
       - Accept, Accept-Encoding
       X-Content-Type-Options:
@@ -126,5 +126,5 @@ http_interactions:
         остановка","transport_type":"bus"},"to":{"type":"station","title":"Пушкинская
         площадь","short_title":null,"popular_title":null,"code":"s9848577","station_type":"bus_stop","station_type_name":"автобусная
         остановка","transport_type":"bus"},"departure_platform":"","arrival_platform":"","departure_terminal":null,"arrival_terminal":null,"duration":480.0,"days":"ежедневно","except_days":"","departure":"06:00:00","arrival":"06:08:00","start_date":"2022-10-23"}],"interval_segments":[],"pagination":{"total":11,"limit":100,"offset":0}}'
-  recorded_at: Sun, 23 Oct 2022 08:19:22 GMT
+  recorded_at: Sun, 23 Oct 2022 08:29:14 GMT
 recorded_with: VCR 6.1.0
