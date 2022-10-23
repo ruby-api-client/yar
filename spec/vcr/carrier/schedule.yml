@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.rasp.yandex.net/v3.0/carrier/?code=TK&system=iata
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.2
+      Authorization:
+      - TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Allow:
+      - GET
+      Content-Length:
+      - '311'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 23 Oct 2022 08:19:21 GMT
+      Vary:
+      - Accept, Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: UTF-8
+      string: '{"carriers":[{"code":5483,"title":"AnadoluJet","codes":{"sirena":null,"iata":"TK","icao":"AJA"},"address":"Bakırköy/
+        İstanbul","url":"http://www.anadolujet.com/","email":"musteri@anadolujet.com","contacts":"","phone":"444
+        25 38","logo":"https://yastat.net/s3/rasp/media/data/company/logo/anadolujet.png","offices":[]},{"code":680,"title":"Turkish
+        Airlines","codes":{"sirena":null,"iata":"TK","icao":"THY"},"address":"Bakırköy/
+        İstanbul","url":"http://www.turkishairlines.com/","email":"","contacts":"","phone":"444
+        08 49","logo":"https://yastat.net/s3/rasp/media/data/company/logo/thy_kopya.jpg","offices":[]}]}'
+  recorded_at: Sun, 23 Oct 2022 08:19:21 GMT
+recorded_with: VCR 6.1.0

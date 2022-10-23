@@ -22,6 +22,18 @@ module Yar
       StationsResource.new(self)
     end
 
+    def carrier
+      CarrierResource.new(self)
+    end
+
+    def nearest
+      NearestResource.new(self)
+    end
+
+    def schedule
+      ScheduleResource.new(self)
+    end
+
     def connection
       @connection ||= Faraday.new(BASE_URL) do |conn|
         conn.request :authorization, nil, token

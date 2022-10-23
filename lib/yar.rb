@@ -11,11 +11,17 @@ module Yar
   autoload :Collection, "yar/collection"
   autoload :Error, "yar/error"
 
+  # objects
   autoload :Copyright, "yar/objects/copyright"
-  autoload :CopyrightResource, "yar/resources/copyright"
-
   autoload :Station, "yar/objects/station"
   autoload :Schedule, "yar/objects/schedule"
-  autoload :Region, "yar/objects/region"
+  autoload :Carrier, "yar/objects/carrier"
+  autoload :City, "yar/objects/city"
+
+  # resources
+  autoload :CopyrightResource, "yar/resources/copyright"
   autoload :StationsResource, "yar/resources/stations"
+  autoload :ScheduleResource, "yar/resources/schedule"
+  autoload :CarrierResource, "yar/resources/carrier"
+  autoload :NearestResource, "yar/resources/nearest"
 end
