@@ -3,6 +3,6 @@
 module Yar
   major = 1
   minor = 0
-  patch = 2
+  patch = 3
   VERSION = "#{major}.#{minor}.#{patch}"
 end
