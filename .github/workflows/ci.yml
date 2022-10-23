@@ -17,7 +17,7 @@ jobs:
         ruby-version: ${{ matrix.ruby }}
 
     - name: Get the newest rubygems version to rid ourselves of warnings
-      run: gem install --system --no-document
+      run: gem update --system --no-document
 
     - name: Install bundler
       run: gem i bundler --no-document
