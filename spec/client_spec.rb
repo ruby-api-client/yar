@@ -14,6 +14,6 @@ RSpec.describe Yar::Client do
   end
 
   describe "VERSION" do
-    it { expect(Yar::VERSION).to eq "1.0.1" }
+    it { expect(Yar::VERSION).to eq "1.0.2" }
   end
 end
